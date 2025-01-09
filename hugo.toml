@@ -1,0 +1,5 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Sanyam Chhabra's Blog"
+theme = "stack"
+copyright = "Sanyam Chhabra"

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Tags on Sanyam Chhabra&#39;s Blog</title>
+        <link>https://blog.sanyamchhabra.in/tags/</link>
+        <description>Recent content in Tags on Sanyam Chhabra&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>Sanyam Chhabra</copyright>
+        <lastBuildDate>Thu, 07 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.sanyamchhabra.in/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Css</title>
+        <link>https://blog.sanyamchhabra.in/tags/css/</link>
+        <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.sanyamchhabra.in/tags/css/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Html</title>
+        <link>https://blog.sanyamchhabra.in/tags/html/</link>
+        <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.sanyamchhabra.in/tags/html/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Markdown</title>
+        <link>https://blog.sanyamchhabra.in/tags/markdown/</link>
+        <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.sanyamchhabra.in/tags/markdown/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Themes</title>
+        <link>https://blog.sanyamchhabra.in/tags/themes/</link>
+        <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.sanyamchhabra.in/tags/themes/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>
