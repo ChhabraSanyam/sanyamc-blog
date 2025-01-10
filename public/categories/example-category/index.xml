@@ -7,22 +7,27 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>Sanyam Chhabra</copyright>
-        <lastBuildDate>Sun, 06 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sanyamc-blog.pages.dev/categories/example-category/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Hello World</title>
-        <link>https://sanyamc-blog.pages.dev/p/hello-world/</link>
-        <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
+        <lastBuildDate>Fri, 10 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://sanyamc-blog.pages.dev/categories/example-category/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Test Post</title>
+        <link>https://sanyamc-blog.pages.dev/p/test-post/</link>
+        <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://sanyamc-blog.pages.dev/p/hello-world/</guid>
-        <description>&lt;img src="https://sanyamc-blog.pages.dev/p/hello-world/cover.jpg" alt="Featured image of post Hello World" /&gt;&lt;p&gt;Welcome to Hugo theme Stack. This is your first post. Edit or delete it, then start writing!&lt;/p&gt;
-&lt;p&gt;For more information about this theme, check the documentation: &lt;a class=&#34;link&#34; href=&#34;https://stack.jimmycai.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://stack.jimmycai.com/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Want a site like this? Check out &lt;a class=&#34;link&#34; href=&#34;https://github.com/CaiJimmy/hugo-theme-stack-starter&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;hugo-theme-stack-stater&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Photo by &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/@pawel_czerwinski&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Pawel Czerwinski&lt;/a&gt; on &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Unsplash&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+        <guid>https://sanyamc-blog.pages.dev/p/test-post/</guid>
+        <description>&lt;img src="https://sanyamc-blog.pages.dev/p/test-post/pic.jpg" alt="Featured image of post Test Post" /&gt;&lt;blockquote&gt;
+&lt;h1 id=&#34;testing-&#34;&gt;Testing &amp;hellip;
+&lt;/h1&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://sanyamc-blog.pages.dev/p/test-post/pic.jpg&#34;
+	width=&#34;1000&#34;
+	height=&#34;667&#34;
+	srcset=&#34;https://sanyamc-blog.pages.dev/p/test-post/pic_hu16257320553224028419.jpg 480w, https://sanyamc-blog.pages.dev/p/test-post/pic_hu4170966261580821530.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;149&#34;
+		data-flex-basis=&#34;359px&#34;
+	
+&gt;&lt;/p&gt;
 </description>
         </item>
         
