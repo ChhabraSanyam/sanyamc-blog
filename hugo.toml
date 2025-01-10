@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://sanyamc-blog.pages.dev/"
 languageCode = "en-us"
 title = "Sanyam Chhabra's Blog"
 theme = "stack"

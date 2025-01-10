@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Pages on Sanyam Chhabra&#39;s Blog</title>
-        <link>https://blog.sanyamchhabra.in/page/</link>
+        <link>https://sanyamc-blog.pages.dev/page/</link>
         <description>Recent content in Pages on Sanyam Chhabra&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>Sanyam Chhabra</copyright>
-        <lastBuildDate>Sun, 06 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.sanyamchhabra.in/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 06 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sanyamc-blog.pages.dev/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Archives</title>
-        <link>https://blog.sanyamchhabra.in/archives/</link>
+        <link>https://sanyamc-blog.pages.dev/archives/</link>
         <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://blog.sanyamchhabra.in/archives/</guid>
+        <guid>https://sanyamc-blog.pages.dev/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>Links</title>
-        <link>https://blog.sanyamchhabra.in/links/</link>
+        <link>https://sanyamc-blog.pages.dev/links/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://blog.sanyamchhabra.in/links/</guid>
+        <guid>https://sanyamc-blog.pages.dev/links/</guid>
         <description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
 &lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -52,10 +52,10 @@
         </item>
         <item>
         <title>Search</title>
-        <link>https://blog.sanyamchhabra.in/search/</link>
+        <link>https://sanyamc-blog.pages.dev/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://blog.sanyamchhabra.in/search/</guid>
+        <guid>https://sanyamc-blog.pages.dev/search/</guid>
         <description></description>
         </item>
         
