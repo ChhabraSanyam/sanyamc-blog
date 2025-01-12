@@ -12,4 +12,4 @@ git add .
 git commit -m "$message"
 git push origin main
 
-printf "\n \e[32m	Webiste Deployed!	\e[39m \n"
+printf "\n \e[32m	Webiste Deployed!	\e[39m"
