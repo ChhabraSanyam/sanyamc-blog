@@ -2,9 +2,9 @@
 
 cd ~/Developer/sanyamc-blog
 
-rsync -av --delete "~/Documents/Obsidian Vault/Posts/" "~/Developer/sanyamc-blog/content/post/"
-
 read -p "Enter commit message: " message
+
+rsync -av --delete "/Users/sanyamc/Documents/Obsidian Vault/Posts/" "/Users/sanyamc/Developer/sanyamc-blog/content/post/"
 
 hugo
 

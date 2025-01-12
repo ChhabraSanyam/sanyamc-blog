@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://sanyamc-blog.pages.dev/</loc>
+    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sanyamc-blog.pages.dev/categories/</loc>
+    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sanyamc-blog.pages.dev/categories/example-category/</loc>
+    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sanyamc-blog.pages.dev/post/</loc>
+    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sanyamc-blog.pages.dev/p/test-post/</loc>
+    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sanyamc-blog.pages.dev/archives/</loc>
+    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sanyamc-blog.pages.dev/page/</loc>
+    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sanyamc-blog.pages.dev/links/</loc>
+  </url><url>
+    <loc>https://sanyamc-blog.pages.dev/search/</loc>
+  </url><url>
+    <loc>https://sanyamc-blog.pages.dev/tags/</loc>
+  </url>
+</urlset>
