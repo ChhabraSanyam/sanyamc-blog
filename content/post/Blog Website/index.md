@@ -17,6 +17,7 @@ image: cover.jpg
 
 # The Installation & Setup
 
+
 ## Step 1 : Build a static site using HUGO
 
 1. Install Dependencies : [Git](https://github.com/git-guides/install-git) & [Go](https://go.dev/dl/)
