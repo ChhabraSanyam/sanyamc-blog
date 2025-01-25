@@ -7,18 +7,17 @@ categories:
 image: cover.jpg
 ---
 
-> # Introduction
+> ## Introduction
 
 - I am going to build a free website using a static site generator *HUGO* and hosting it on *Cloudflare pages*.
 - The *workflow* will be like this: The posts will be made in markdown format (using Obsidian), then it will be converted into html (using Hugo), then it will be pushed to a github repository, from where a free static hosting provider (cloudflare pages) will pull the public directory files, and host the website.
 - I will also provide a bash script to automate deploying the website.
-- *Note* : The CLI commands mentioned will be valid for linux, macos & wsl.
+- *Note* : The CLI commands mentioned will be valid for Linux, MacOS & WSL.
 
 
-# The Installation & Setup
+## The Installation & Setup
 
-
-## Step 1 : Build a static site using HUGO
+### Step 1 : Build a static site using HUGO
 
 1. Install Dependencies : [Git](https://github.com/git-guides/install-git) & [Go](https://go.dev/dl/)
 2. Install [Hugo](https://gohugo.io/installation/) 
@@ -63,7 +62,7 @@ git submodule add https://github.com/{theme_repo} themes/{theme_name}
 hugo server -t {themename}
 ```
 
-## Step 2 : Push the Website code to GitHub
+### Step 2 : Push the Website code to GitHub
 
 1. Create a new private repository on Github with the name for your website 
 2. Add your SSH public key to your Github account, to push the site to the remote repo just created. Official Documentation [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
@@ -82,7 +81,7 @@ git commit -m "{commit message}"
 git push -u origin main
 ```
 
-## Step 3 : Host the site using Cloudflare Pages
+### Step 3 : Host the site using Cloudflare Pages
 
 1. SignIn/SignUp at [Cloudflare Pages](https://pages.cloudflare.com/) 
 2. Select Pages, and connect to github account
@@ -95,7 +94,7 @@ git push -u origin main
 8. Some other settings to change in the project would be, if you want to add *Custom domains*, or turn on web analytics. You can also adjust other *Settings* as per requirement.
 9. By default, Cloudflare Pages will automatically Deploy the newest version of the site, whenever changes are made and pushed to the GitHub site repository.
 
-## Step 4 : Creating posts in Obsidian
+### Step 4 : Creating posts in Obsidian
 
 1. Get Obsidian [here](https://obsidian.md/), or any other markdown editor will work aswell.
 2. Create a vault in Obsidian (if not done already), to store markdown files, and make a folder called *'Posts'*, where the blog posts will be stored.
@@ -126,7 +125,7 @@ rsync -av --delete "/path/to/obsidian/posts/" "/path/to/hugo/posts/"
 *Note* : A lot of useful plugins are available for Obsidian to make Markdown easier. A few I would recommend are : *Editing toolbar*, *Paste URL into selection*, *Templater*
 
 
-# The Workflow
+## The Workflow
 
 - All we have to do is, create posts in the Posts folder of the Obsidian Vault, in the format according to the Hugo Theme. Then run this automatic deployment script below.
 
