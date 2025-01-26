@@ -62,7 +62,7 @@ sudo lvextend -l +100%FREE /dev/ubuntu-vg/ubuntu-lv && sudo resize2fs /dev/ubunt
 ```
 sudo nano /etc/systemd/logind.conf
 ```
-- Uncomment & set the HandleLidSwitch settings to *ignore*, then save & exit
+- Uncomment & set the HandleLidSwitch settings to *ignore*, then save & exit : 
 	`HandleLidSwitch=ignore` 
 	`HandleLidSwitchExternalPower=ignore`                       
 	`HandleLidSwitchDocked=ignore`
@@ -73,7 +73,7 @@ sudo systemctl restart systemd-logind.service
 ```
 sudo nano /etc/default/grub
 ```
-- Set the time for display to sleep (in seconds), then save & exit
+- Set the time for display to sleep (in seconds), then save & exit :
 	`GRUB_CMDLINE_LINUX="consoleblank=60"`
 ```
 sudo update-grub
@@ -173,12 +173,12 @@ curl -fsSL https://ollama.com/install.sh | sh
 ```
 systemctl edit ollama.service
 ```
-	Add these lines to change the bind address & expose Ollama on the network :
+Add these lines to change the bind address & expose Ollama on the network :
 ```
 [Service]
 Environment="OLLAMA_HOST=0.0.0.0"
 ```
-	Then restart ollama : 
+Then restart ollama : 
 ```
 systemctl daemon-reload
 systemctl restart ollama
@@ -188,7 +188,7 @@ systemctl restart ollama
 ```
 ollama pull llama3.2
 ```
-	To Run the Model : 
+To Run the Model : 
 ```
 ollama run llama3.2
 ```
@@ -238,14 +238,14 @@ chmod +x webui.sh
 
 scp /path/to/downloaded/model/{model_name}.safetensors {username}@{server.ip}:~/stable-diffusion-webui/models/Stable-diffusion/
 ```
-You may also delete the default SD 1.5 model
+*Note* : You may also delete the default SD 1.5 model
 
 - *Additional Configuration* : 
 ```
 cd stable-diffusion-webui
 nano webui-user.sh
 ```
-	- Uncomment the COMMANDLINE_ARGS line set the following arguments
+Uncomment the COMMANDLINE_ARGS line set the following arguments :
 ```
 export COMMANDLINE_ARGS="--xformers --medvram --opt-split-attention --listen --api"
 ```
