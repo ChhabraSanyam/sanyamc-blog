@@ -279,8 +279,8 @@ The UI should be accessible at : `{server_ip}:8080`
 ```
 systemctl edit ollama.service
 ```
-	Add this Environment Variable under [Service]
+Add this Environment Variable under [Service]
 ```
 Environment="OLLAMA_KEEP_ALIVE=0"
 ```
-	Note : It can result in slower response times, as ollama needs to load the model into memory everytime
+*Note* : It can result in slower response times, as ollama needs to load the model into memory everytime
