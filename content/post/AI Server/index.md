@@ -8,7 +8,7 @@ categories:
 image: cover.jpg
 ---
 
-> ## Introduction
+> # Introduction
 
 - I am going to install Ubuntu Server on a PC with a GPU, to make a Headless server, to run all my AI locally.
 - I will run a local LLM using Ollama and Image generation using stable diffusion, on a GUI using Open WebUI.

@@ -7,7 +7,7 @@ categories:
 image: cover.jpg
 ---
 
-> ## Introduction
+> # Introduction
 
 - I am going to build a free website using a static site generator *HUGO* and hosting it on *Cloudflare pages*.
 - The *workflow* will be like this: The posts will be made in markdown format (using Obsidian), then it will be converted into html (using Hugo), then it will be pushed to a github repository, from where a free static hosting provider (cloudflare pages) will pull the public directory files, and host the website.
