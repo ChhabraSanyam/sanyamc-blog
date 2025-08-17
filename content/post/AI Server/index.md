@@ -1,5 +1,5 @@
 ---
-title: Making an AI server
+title: Self-Hosting an AI server
 description: Creating a Headless Server with GPU support to host all my AI locally
 date: 2025-01-15
 categories:

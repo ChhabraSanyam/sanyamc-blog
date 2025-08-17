@@ -1,0 +1,13 @@
+# macOS system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Hugo files
+/public/
+/resources/_gen/
+.hugo_build.lock
