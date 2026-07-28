@@ -40,6 +40,7 @@ OLLAMA_HOST=0.0.0.0 ollama serve
 	- Also, to use a wake word, `Add streaming wake word`, then under Wake word engine select `openwakeword`, and select a Wake Word.
 	*Note*: To activate assistant through a wake word, a usb speaker and mic needs to be used (passthrough to the HAOS VM ,if applicable), and selected under the `Assist Microphone` addon Configuration
 - To access the Assistant, use the Assist icon on HA dashboard. In the webui, it is only possible to talk to the assistant using text. To use voice, an SSL certificate needs to be added to HA to get a HTTPS connection.
+- Here's a guide to get ssl certs for HomeAssistant: https://novamostra.com/2023/04/29/add-ssl-tls-certificate-to-homeassistant-web-interface/
 - The easier way to converse with the assistant using voice is to use the Home Assistant Companion App on mobile.
 - It is also possible to setup a Wyoming Satellite on another device to access the Voice Assistant with wake word trigger. 
 	https://github.com/rhasspy/wyoming-satellite.git
