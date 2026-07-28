@@ -4,7 +4,7 @@ description: Setting up a headless Home Server for self hosting using Proxmox
 date: 2026-07-28
 categories:
   - HomeLab
-image: cover.jpg
+image: cover.png
 ---
 
 > # Introduction
