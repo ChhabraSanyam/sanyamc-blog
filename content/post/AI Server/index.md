@@ -169,14 +169,19 @@ Access the Portainer GUI : `https://{server_ip}:9443`
 curl -fsSL https://ollama.com/install.sh | sh
 ```
 
-- To also expose Ollama API on the network : [Documentation](https://github.com/jmorganca/ollama/blob/main/docs/faq.md#how-can-i-expose-ollama-on-my-network)
+- To change Ollama config :
 ```
 systemctl edit ollama.service
 ```
-Add these lines to change the bind address & expose Ollama on the network :
+Here's the config I use :
 ```
 [Service]
 Environment="OLLAMA_HOST=0.0.0.0"
+Environment="OLLAMA_CONTEXT_LENGTH=98304"
+Environment="OLLAMA_KEEP_ALIVE=15m"
+Environment="OLLAMA_ORIGINS=*"
+Environment="OLLAMA_FLASH_ATTENTION=1"
+Environment="OLLAMA_KV_CACHE_TYPE=q4_0"
 ```
 Then restart ollama : 
 ```
@@ -186,14 +191,71 @@ systemctl restart ollama
 
 - To Download a Model : [Models list](https://ollama.com/search)
 ```
-ollama pull llama3.2
+ollama pull qwen3.8
 ```
 To Run the Model : 
 ```
-ollama run llama3.2
+ollama run qwen3.8
 ```
 
 - Ollama Integrations : https://github.com/ollama/ollama#extensions--plugins
+
+#### LiteLLM
+To create and expose an OpenAI compatible gateway
+
+- Install [LiteLLM](https://docs.litellm.ai/docs/):
+```
+uv add litellm
+```
+- Create config : `~/.config/litellm/config.yaml`
+```config.yaml
+model_list:
+  - model_name: "qwen3.8"
+    litellm_params:
+      model: "ollama_chat/qwen3.8"
+      api_base: "http://localhost:11434"
+    model_info:
+      supports_function_calling: true
+litellm_settings:
+  drop_params: true
+general_settings:
+  disable_admin_ui: true
+  disable_env_credential_login: true
+  master_key: sk-$(openssl rand -hex 32)
+
+```
+- Create a service : `sudo nano /etc/systemd/system/litellm.service`
+```
+[Unit]
+Description=LiteLLM Proxy
+After=network-online.target ollama.service
+Wants=network-online.target
+Requires=ollama.service
+
+[Service]
+Type=simple
+User=$(whoami)
+WorkingDirectory=/home/$(whoami)
+
+ExecStart=$(which litellm) --config /home/$(whoami)/.config/litellm/config.yaml
+
+Restart=always
+RestartSec=5
+
+StandardOutput=null
+StandardError=journal
+
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
+```
+- Start the Proxy :
+```
+sudo systemctl daemon-reload
+sudo systemctl enable --now litellm
+```
+
 
 ### Automatic1111 (Stable Diffusion: for Local Image Generation)
 
